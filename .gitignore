@@ -1,0 +1,23 @@
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Streamlit
+.streamlit/
+
+# FAISS index files
+.faiss/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db

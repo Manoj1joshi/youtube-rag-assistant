@@ -7,7 +7,7 @@ A Retrieval-Augmented Generation (RAG) application that answers questions from Y
 * Extracts transcripts directly from YouTube videos
 * Splits transcripts into semantic chunks
 * Stores embeddings using FAISS vector search
-* Hybrid Retrieval (FAISS + BM25)
+* Hybrid Retrieval (Pinecone + BM25)
 * Query Rewriting for improved retrieval
 * Cross-Encoder Reranking
 * Timestamp-Aware Retrieval
@@ -20,10 +20,11 @@ A Retrieval-Augmented Generation (RAG) application that answers questions from Y
 * Streamlit
 * LangChain
 * Hugging Face
-* FAISS
+* Pinecone
 * BM25
 * Cross Encoder Reranking
 * YouTube Transcript API
+* Github
 
 ## Project Architecture
 
